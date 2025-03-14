@@ -15,6 +15,7 @@ import java.util.List;
 @Table(name = "tb_registers")
 @AllArgsConstructor
 @NoArgsConstructor
+@RequiredArgsConstructor
 @Data
 public class Ninja {
     @Id
